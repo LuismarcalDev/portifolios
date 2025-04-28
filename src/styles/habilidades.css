@@ -1,0 +1,191 @@
+.habilidades {
+  width: 100%;
+  height: auto;
+  padding: 50px 0;
+}
+.ahh2{
+display: flex;
+flex-direction: row;
+
+}
+.title-habilidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-habilidades h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-habilidades hr {
+  border: none;
+  width: 15%;
+  height: 4px;
+  background-color: blue;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.habilidades-completo {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto 0 auto;
+  display: flex;
+ 
+  justify-content: center;
+  gap: 30px 2px; /* reduzido o espaço */
+}
+
+.components {
+  flex: 0 1 18%; /* 5 por linha */
+  display: flex;
+  justify-content: center;
+  
+}
+
+#composql, #compotawil {
+  flex: 0 1 23%; /* 3 na segunda linha */
+}
+
+/* Caixas */
+.circle-img {
+  background-color: #e6f4ff;
+  width: 90px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.26);
+}
+
+.circle-img img {
+  width: 50px;
+}
+
+.circle-img h2 {
+  background-color: #1844bb;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 2px 5px 15px rgba(0, 0, 0, 0.459);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+#php{
+position: absolute;
+top: 1580px;
+left: 195px;
+}
+#sql{
+  position: absolute;
+  top: 1580px;
+  left:415px ;
+  }
+  #tawil{
+    position: absolute;
+    top: 1580px;
+  left:630px ;
+    
+    }
+/* Responsivo - celular */
+@media screen and (max-width: 767px) {
+  .habilidades-completo {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+  }
+
+  .components, #composql, #compotawil {
+      flex: 1 1 auto;
+  }
+  .habilidades{
+margin-top: 500px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+  }
+  .title-habilidades h2{
+font-size: 29px;
+
+  }
+  .title-habilidades hr{
+    width: 50%;
+
+  }
+  #php{
+top: 3675px;
+left: 243px;
+display: none;
+  }
+  #sql{
+    left: 58px;
+    top: 3820px;
+    display: none;
+  }
+  #tawil{
+    left: 245px;
+    top: 3820px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1918px){
+.title-habilidades{
+margin-top: -230px;
+
+
+}
+.title-habilidades h2{
+
+  font-size: 35px;
+}
+.title-habilidades hr{
+padding: 3px;
+}
+.circle-img {
+width: 100px;
+padding: 25px;
+}
+.circle-img img {
+  width: 55px;
+}
+.circle-img h2 {
+  background-color: #1844bb;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-shadow: 2px 5px 15px rgba(0, 0, 0, 0.459);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  width: 180%;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+#php{
+  top: 2130px;
+  left: 465px;
+    }
+    #sql{
+      top: 2130px;
+      left: 685px;
+    }
+    #tawil{
+      top: 2130px;
+      left: 902px;
+    }
+
+}
+

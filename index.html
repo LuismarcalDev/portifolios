@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <h1>Portifolio <span>&lt;/&gt;
+        </span></h1>
+        <i class="fa-solid fa-bars" id="menu-bar-responsive-ativar" onclick="ativarMenu()"></i>
+        <div class="menubar" id="menu-active">
+            
+            <i class="fa-solid fa-bars" id="menu-bar-responsive" onclick="fecharMenu()"></i>
+            <div class="links-responsive">
+                <a href="#">Home</a>
+                <a href="#">Sobre Mim</a>
+                <a href="#">Projetos</a>
+                <a href="#">Contato</a>
+                <a href="#">Habilidades</a>
+            </div>
+        </div>
+        
+       
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#sobre-mim">Sobre Mim</a>
+            <a href="#habilidade">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+        </div>
+        <button onclick="irParaPagina2()"><i class="fa-solid fa-phone" ></i> Contato</button>
+    </header>
+    <main>
+        <div class="left-main">
+            <div class="title-main">
+                <h2>LUIS FELIPPE MARÇAL</h2>
+                <hr>
+                <h2 id="h2-main-dev">DESENVOLVEDOR <span id="dev-type">WEB</span></h2>
+            </div>
+            <p>Olá! Meu nome é Luis Felippe, sou desenvolvedor Full-Stack e estudo na área há aproximadamente 3 anos. Estou sempre em busca de oportunidades para aprimorar minhas habilidades como programador. Também realizo trabalhos como freelancer. Caso tenha interesse, entre em contato!</p>
+            <div class="btns-main">
+                <button onclick="baixarCurriculo()">Download CV</button>
+                <button onclick="irParaPagina()">Projetos</button>
+            </div>
+           
+        </div>
+        <div class="height-main">
+            <img src="img/Principal/astronauta.svg" alt="">
+        </div>
+    </main>
+    <article>
+        <div class="left-sobre-mim" id="sobre-mim">
+            <div class="title-sobre">
+                <h2>Sobre Mim</h2>
+                <hr>
+            </div>
+            <p>"Olá! Meu nome é Luis Felippe, sou desenvolvedor Full-Stack com foco em desenvolvimento web. Estudo Análise e Desenvolvimento de Sistemas e atuo na área de suporte de sistemas, adquirindo experiência prática. Tenho conhecimento em Front-end, Back-end e UX/UI Design, buscando sempre aprimorar minhas habilidades. Também realizo trabalhos como freelancer na criação de páginas web. Entre em contato caso tenha interesse em conhecer melhor meu trabalho!"</p>
+        </div>
+        <div class="right-profisional">
+            <div class="title-sobre">
+                <h2 id="h2-prof">Educação Profissional:</h2>
+                <hr id="hr-profissional">
+            </div>
+            <div class="geral-educacao">
+                <div class="edu-geral">
+                    <h4>Cursando Faculdade:</h4>
+                    <p>Analise e Desenvolvimento De Sistemas 1º Periodo.</p>
+                </div>
+            </div>
+            <div class="geral-educacao">
+                <div class="edu-geral">
+                    <h4>Ensino Medio Tecnico:</h4>
+                    <p>Ensino Tecnico de T.I, Integrado ao Ensino MediO </p>
+                </div>
+            </div>
+            <div class="geral-educacao">
+                <div class="edu-geral">
+                    <h4>Estudando Atualmente:</h4>
+                    <p>Framework React Js, Tailwind CSS e linguagem C</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <section class="habilidades">
+        <div class="title-habilidades">
+            <h2>Habilidades</h2>
+            <hr>
+        </div>
+    
+        
+            <div class="habilidades-completo" id="habilidade">
+                <div class="components">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/html (2).png" alt="">
+                        <h2>Html</h2>
+                    </div>
+                </div>
+                <div class="components">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/social.png" alt="">
+                        <h2>Css</h2>
+                    </div>
+                </div>
+                <div class="components">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/js (1).png" alt="">
+                        <h2>Js</h2>
+                    </div>
+                </div>
+                <div class="components">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/react.png" alt="">
+                        <h2>React</h2>
+                    </div>
+                </div>
+                <div class="components">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/figma.png" alt="">
+                        <h2>Figma</h2>
+                    </div>
+                </div>
+                <div class="components" id="php">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/php.png" alt="">
+                        <h2>PHP</h2>
+                    </div>
+                </div>
+                <div class="components"  id="sql">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/sql-server.png" alt="">
+                        <h2>SQL</h2>
+                    </div>
+                </div>
+                <div class="components"  id="tawil">
+                    <div class="circle-img">
+                        <img src="img/components/habilidades/storm.png" alt="">
+                        <h2>Tawilnd</h2>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Segunda linha com 3 itens -->
+          
+        </div>
+    </section>
+    <article class="Projetos" id="projetos">
+        <div class="title-projetos">
+            <h2>Projetos</h2>
+            <hr>
+        </div>
+        <div class="projeto-geral-unico">
+            <div class="projeto-unico">
+                <div class="img-projeto" id="projeto-mg-moveis"></div>
+                <div class="descricao">
+                    <a href="https://luismarcaldev.github.io/projeto-mg-moveis-planejados/" target="_blank" >Ver Mais</a>
+                </div>
+            </div>
+            <div class="projeto-unico">
+               <div class="img-projeto" id="aocorro"></div>
+               <div class="descricao">
+                   <a href="https://luisdev20ss.github.io/subir/" target="_blank">Ver Mais</a>
+               </div>
+               </div>
+               <div class="projeto-unico">
+                   <div class="img-projeto"></div>
+                   <div class="descricao">
+                       <a href="#">Ver Mais</a>
+                   </div>
+                   </div>
+                   <div class="projeto-unico">
+                       <div class="img-projeto"></div>
+                       <div class="descricao">
+                           <a href="#">Ver Mais</a>
+                       </div>
+                       </div>
+        </div>
+    </article>
+    <section class="contato" id="contato">
+        <div class="contato-geral">
+            <div class="left-contato">
+                <div class="title-contato">
+                    <h2 id="cont">Contato</h2>
+                    <hr>
+                </div>
+
+                <h2>E-mail: <br>
+                    Luisfelippe55482@gmail.com
+                </h2>
+                <h2>Telefone: <br>
+                    (11) 99585-9343
+                </h2>
+            </div>
+                <div class="meio">
+                    
+                </div>
+                <div class="links-contato">
+                    <div class="link-group">
+                        <a href="https://www.linkedin.com/in/luisfelippedesenvolvedor?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="img/components/contato/linkedin.png" alt="Linkedin"></a>
+                        <h2> Linkedin</h2>
+                    </div>
+                    <div class="link-group">
+                       <a href="https://github.com/LuismarcalDev" target="_blank"> <img src="img/components/contato/github.png" alt="Linkedin"></a>
+                        <h2> Git Hub</h2>
+                    </div>
+                    <div class="link-group">
+                       <a href="https://wa.me/qr/D3JP56W4JUNZJ1" target="_blank"> <img src="img/components/contato/whatsapp (1).png" alt="whatsapp"></a>
+                        <h2> WhatsApp</h2>
+                    </div>
+                    <div class="link-group">
+                        <a href="#" target="_blank"><img src="img/components/contato/instagram.png" alt="instagram"></a>
+                        <h2> Instagram</h2>
+                    </div>
+                    <div class="link-group">
+                        <a href="https://www.behance.net/lusifelippe" target="_blank"><img src="img/components/contato/behance.png" alt="behance"></a>
+                        <h2> Behance</h2>
+                    </div>
+                </div>
+            </div>
+            <form class="form">
+                <div class="title-form">
+                    <h2>Contato</h2>
+                    <hr>
+                </div>
+                <div class="input-geral">
+                    <div class="input-unico">
+                        <label for="nome">Insira seu Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Coloque seu nome" required>
+                    </div>
+                    <div class="input-unico">
+                        <label for="email">Insira seu E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Coloque seu melhor E-mail" required>
+                    </div>
+                    <div class="input-unico">
+                        <label for="duvida">Insira sua dúvida</label>
+                        <input type="text" name="duvida" id="duvida" placeholder="Sua dúvida" required>
+                    </div>
+                    <button  id="btn-form">Enviar</button>
+                </div>
+            </form>
+            
+    </section>
+    <footer> 
+        <h2>&copy 2024 Luis Felppe
+        </h2>
+     </footer>
+</body>
+<script src="src/code/code-central.js"></script>
+</html>

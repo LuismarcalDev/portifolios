@@ -1,0 +1,158 @@
+article{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    
+}
+
+.title-sobre h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+
+}
+.title-sobre hr{
+    border: none;
+    width: 15%;
+    height: 4px;
+    background-color: blue;
+    border-radius: 100px;
+
+
+}
+.left-sobre-mim p{
+    font-family: "Poppins", sans-serif;
+    width: 40%;
+
+}
+.left-sobre-mim{
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 100px;
+margin-left: 40px;
+}
+.right-profisional{
+position: absolute;
+left: 70%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+margin-top: 100px;
+margin-left: -50px;
+}
+
+#hr-profissional{
+width: 100%;
+}
+
+.edu-geral h4{
+font-size: 16px;
+font-family: "Montserrat", sans-serif;
+
+}
+.edu-geral p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 767px){
+
+   article{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        height: 2000px;
+   }
+
+    .left-sobre-mim{
+position: absolute;
+align-items: center;
+
+
+    }
+
+    .left-sobre-mim P{
+        width: 100%;
+        font-size: 20px;
+        text-align: justify;
+        hyphens: auto;
+        margin-left: -40px;
+    }
+    .title-sobre{
+        margin-left: -30px;
+    }
+    .title-sobre hr{
+        width: 100%;
+    }
+
+   .right-profisional{
+    position: absolute;
+left: 130px;
+    top: 1400px;
+   }
+
+   #h2-prof{
+    font-size: 25px;
+    
+   }
+   .edu-geral p{
+    width: 72%;
+    font-size: 20px;
+   }
+   .edu-geral h4{
+    font-size: 22px;
+   }
+   #hr-profissional{
+    width: 89%;
+
+
+   }
+
+
+
+}
+@media screen and (min-width: 1918px){
+.left-sobre-mim{
+margin-left: 50px;
+margin-top: -15px;
+}
+.right-profisional{
+    margin-top: 10px;
+    margin-right: 120px;
+}
+
+.title-sobre h2{
+font-size: 35px;
+}
+.title-sobre hr{
+padding: 3px;
+
+
+}
+.left-sobre-mim p{
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 40%;
+    text-align: justify;
+    hyphens: auto;
+}
+.edu-geral h4{
+font-size: 20px;
+
+
+}
+.edu-geral p{
+    text-align: justify;
+    hyphens: auto;
+    margin-left: -2px;
+font-size: 20px;
+}
+
+
+}

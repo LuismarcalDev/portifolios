@@ -1,0 +1,288 @@
+.contato {
+    width: 100%;
+    height: 150dvh;
+    padding: 20px;
+    display: flex;
+  }
+  .contato-geral {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 250px;
+  }
+  .links-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 10px;
+  }
+  
+  .left-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #cont {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .title-contato hr {
+    width: 200px;
+    border: 2px #0044ff solid;
+    border-radius: 5px;
+  }
+  .left-contato h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .meio {
+    width: 0;
+    height: 350px;
+    border-right: 2px solid #0044ff;
+  }
+  .link-group {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .link-group img {
+    width: 45px;
+  }
+  .link-group h2 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .form{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 7px;
+    margin-top: 270px;
+    }
+    .title-form{
+    align-items: center;
+    
+    
+    }
+    .title-form h2{
+        font-family: "Montserrat", sans-serif;
+        color: rgb(13, 15, 148);
+    
+    }
+    .title-form hr{
+        border: none;
+        width: 100%;
+        height: 4px;
+        background-color: rgb(1, 1, 119);
+        border-radius: 100px;
+    
+    
+    }
+    .input-unico{
+    display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .input-geral{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .input-unico label{
+        font-family: "Montserrat", sans-serif;
+        color: rgb(13, 15, 148);
+        font-weight: 500;
+    
+    
+    }
+    .input-unico input{
+    padding: 10px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px black solid;
+    font-family: "Poppins", sans-serif;
+    }
+    #btn-form{
+    border: none;
+    background-color: #2b47a5;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    font-family: "Poppins", sans-serif;
+    }
+    #btn-form:hover{
+        border: none;
+        background-color: #274091;
+        padding: 10px;
+        color: rgb(228, 227, 227);
+        transition: 500ms;
+        border-radius: 7px;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+        }
+    
+        @media screen and (max-width: 1170px) {
+          .contato {
+            margin-top: -250vh;
+            height: 250dvh;
+          }
+
+          .meio {
+            height: 5px;
+            border-radius: 10px;
+            width: 350px;
+            border: none;
+            background-color: #0044ff;
+          }
+          .title-contato hr {
+            width: 350px;
+          }
+          .contato-geral {
+            display: flex;
+            flex-direction: column;
+          }
+          .form{
+            position: relative;
+            top: 640px;
+            left: -685px;
+
+
+          }
+        
+        }
+        
+       
+
+        footer h2 {
+          color: white;
+          text-align: center;
+          font-family: "Poppins", sans-serif;
+          font-weight: 400;
+          letter-spacing: 1px;
+          font-size: 20px;
+        }
+        footer {
+          background-color: rgba(0, 0, 0, 0.281);
+          padding: 5px;
+        }
+        @media screen and (min-width: 1918px){
+          #cont{
+            font-size: 32px;
+          }
+          .contato-geral h2{
+            font-size: 25px;
+
+          }
+          .contato {
+            width: 100%;
+            height: 110dvh;
+            padding: 20px;
+            display: flex;
+          }
+          .meio{
+            padding: 3px;
+            width: 9px;
+            height: 400px;
+          }
+
+          .form{
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            margin-left: 350px;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            border-radius: 7px;
+            margin-top: 240px;
+            }
+            .title-form{
+            align-items: center;
+            
+            
+            }
+            .title-form h2{
+                font-family: "Montserrat", sans-serif;
+                color: rgb(13, 15, 148);
+              font-size: 30px;
+            }
+            .title-form hr{
+                border: none;
+                width: 100%;
+                height: 5px;
+                background-color: rgb(1, 1, 119);
+                border-radius: 100px;
+            
+            
+            }
+            .input-unico{
+            display: flex;
+                flex-direction: column;
+                gap: 2px;
+            }
+            .input-geral{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            }
+            .input-unico label{
+                font-family: "Montserrat", sans-serif;
+                color: rgb(13, 15, 148);
+                font-weight: 500;
+              font-size: 20px;
+            
+            }
+            .input-unico input{
+            padding: 17px;
+            outline: none;
+            border-radius: 7px;
+            border: 1px black solid;
+            font-family: "Poppins", sans-serif;
+            }
+            #btn-form{
+            border: none;
+            background-color: #2b47a5;
+            padding: 10px;
+            color: white;
+            border-radius: 7px;
+            font-family: "Poppins", sans-serif;
+            font-size: 17px;
+            }
+            #btn-form:hover{
+                border: none;
+                background-color: #274091;
+                padding: 10px;
+                color: rgb(228, 227, 227);
+                transition: 500ms;
+                border-radius: 7px;
+                font-family: "Poppins", sans-serif;
+                cursor: pointer;
+                font-size: 17px;
+                }
+                .contato-geral{
+                  margin-left: 70px;
+
+
+                }
+
+
+        }
